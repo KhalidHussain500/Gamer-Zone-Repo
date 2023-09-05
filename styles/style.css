@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Work+Sans:wght@500&display=swap');
+
+header{
+    padding: 40px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.Game{
+    /* background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text; */
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 30px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
+.list{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding:10px 20px;
+    flex-shrink: 0;
+    gap:10px ;
+    
+}
