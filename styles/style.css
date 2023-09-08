@@ -3,7 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 header{
-    padding: 40px 240px;
+    padding: 10px 220px;
 }
 nav{
     display: flex;
@@ -31,6 +31,7 @@ nav li{
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-size: 15px;
+    color: #3C354F;
 }
 .list{
     border-radius: 8px;
@@ -60,14 +61,15 @@ nav li{
 .first-section{
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    padding: 20px 200px 20px 240px; 
-    background: gainsboro;
+    padding: 20px 220px; 
+    background: #f6efef;
 }
 
 .text-play{
     justify-content: left;
-    padding-top: 100px;
+    padding-top: 100px; 
     text-align: justify; 
+    background-image: url('../images/Group\ 14.pngs'); 
 }
 .image{
     width: 50%;
@@ -80,8 +82,7 @@ nav li{
  
 .text-play p{
     color: #534C64;
-    text-align: center;
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -93,12 +94,12 @@ nav li{
     border: 2px solid #FF42A5;
     color: #FFF;
     font-family: Work Sans;
-    font-size: 22px;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 15px 30px;
     border-radius: 48px;
 }
 .btn-2{
@@ -107,24 +108,101 @@ nav li{
     background: #4EC5F7;
     color: #FFF;
     font-family: Work Sans;
-    font-size: 22px;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 15px 30px;
     border-radius: 48px;
 }
+/* first section complete */
+
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 220px 20px 200px; 
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+.second-section img{
+    width: 600px;
+}
+.gamer{
+    text-align: right;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.gamer h1{
+    margin: 0px;
+    padding-bottom: 12px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.btn{
+    border-radius: 48px;
+    border: 2px solid #FF42A5;
+    background:#FF42A5;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 48px;
+}
+/* second section complete */
+.third-section{
+    padding:50px 220px;
+}
+.online{
+    text-align: center;
+}
+.online h1{
+    margin: 0px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px;
+    
+}
+.Funny{
+    margin: 0px;
+    padding-bottom: 12px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+/* Third section style complete */
 .relative-container{
     display: flex;
-    padding:50px 200px 0px 0px;
+    padding:50px  220px 0px 200px; 
     
 
 }
 .relative-text{
     position: relative;
     left: 80px;
-    padding: 180px 0px 0px 200px; 
+    padding-top: 150px; 
     text-align: right
 
 }
@@ -143,8 +221,6 @@ nav li{
     position: relative;
     left: 150px;
     top: 250px;
-
-
 }
 .position img{
     width: 300px;
@@ -154,3 +230,6 @@ nav li{
     width: 480px;
     height: 500px
 }
+/* Relative  section style complete */
+
+
