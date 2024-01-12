@@ -163,7 +163,9 @@ nav li{
 }
 /* second section complete */
 .third-section{
-    padding:50px 220px;
+    
+    padding:50px 0px; 
+    
 }
 .online{
     text-align: center;
@@ -188,7 +190,91 @@ nav li{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+.content-1{
+    background: url(../images/Rectangle\ 4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 300px; 
+    flex-shrink: 0; 
+    border-radius: 16px;
+    
+    
+}
 
+.content-2{
+    background: url(../images/Rectangle\ 5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 300px;
+    flex-shrink: 0; 
+    border-radius: 16px;
+    transition: 1s;
+
+}
+
+.content-3{
+    border-radius: 15px;
+    border-radius: 16px;
+
+    background:url(../images/Rectangle\ 7.png); 
+     
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%; 
+    height: 300px;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+    
+ 
+}
+
+.container p{
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content-4{
+    background: url(../images/Rectangle\ 6.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px; 
+    flex-shrink: 0; 
+    background-repeat: no-repeat;
+    border-radius: 16px;
+
+}
+.container{
+    width: 24%;
+    
+}
 
 
 
@@ -211,6 +297,7 @@ nav li{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 36px;
 }
 .relative-text h1{
     font-size: 35px;
@@ -231,5 +318,265 @@ nav li{
     height: 500px
 }
 /* Relative  section style complete */
+.c-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF42A5;
+    /* padding:90px 220px 0px 200px; */
+    margin-top: 150px;
+}
+.Career{
+    padding: 80px 0px 0px 150px;
+}
+.Career h1,p{
+    color: #FFF;
+}
+.child-image img{
+    height: 700px;
+    width: 800px;
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+}
+.flex p{
+    line-height: 35px;
+}
+.btn-s{
+    background-color: #FFF;
+    color: #FF42A5;
+    border-radius: 48px;
+    border: 2px solid #FFF;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.grid-section{
+    padding:50px 100px 50px 100px;
+    
+}
+.grid-section h4{
+    font-size: 15px;
+}
+.grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
 
 
+}
+
+.pic-1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    border-radius: 45px;
+    padding: 5px;
+    width:220px ;
+    
+}
+.pic-1:hover{
+    border: 2px solid #F948B2;
+    color: #FF42A5;
+
+}
+.pic-2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    border-radius: 45px;
+    padding: 5px;
+    width:220px ;
+    padding-left: 100px ;
+    
+} 
+.pic-2:hover{
+    border: 2px solid #F948B2;
+    color: #FF42A5;
+
+}
+/* grid section comlete */
+footer{
+    text-align: center;
+    background-color:#0B0223;
+    height: 500px;
+}
+.logo-f{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icon-f{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+.Tx{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 400;
+    font-size: small;
+}
+
+@media screen and (max-width: 576px){
+    header{
+        padding: 0px;
+    }
+    nav {
+        flex-direction: column;    
+    }
+    
+    .logo{
+        justify-content: center;
+        text-align: center;
+    }
+    .Game {
+        padding: 0px;
+    }
+    nav > ul{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+        gap: 20px;
+    }
+    nav li{
+        margin: 0px;
+    }
+    .first-section{
+        display: grid;
+        grid-template-columns:1fr;
+        padding: 0px;
+    
+    }
+    .text-play{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .image{
+        width: 100%;
+    }
+    .image img{
+        width: 420px;
+        height: 500px;
+    }
+    .second-section{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .second-section img{
+        width: 420px;
+    }
+    .gamer {
+        text-align: center
+    }
+
+    .main-container {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .container{
+
+        width: 100%;;
+    }
+    .relative-container {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .relative-text {
+        position: relative;
+        left: 0px;
+        padding-top: 0px; 
+        text-align: center; 
+    }
+
+    .position {
+        position: relative;
+        top: 550px;
+        left: 0px;
+    }
+    .position img{
+        width: 250px;
+        height: 280px;
+    }
+    .position-image img{
+        width: 420px;
+    }
+
+    .c-content {
+        padding:0px;
+        margin-top: 150px;
+        flex-direction: column;
+        
+    }
+    .Career {
+        padding: 50px 50px 50px 50px;
+    }
+    .btn-s {
+        background-color: #FFF;
+        color: #FF42A5;
+        border-radius: 48px;
+        border: 2px solid #FFF;
+        padding: 10px 15px;
+        font-size: 12px;
+        font-family: Work Sans;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .child-image img{
+        width: 430px;
+        height: 500px;
+    }
+    .grid-section {
+        padding: 0px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .pic-1 {
+        
+        width: 150px;
+    }
+    .pic-2 {
+        width: 150px;
+        padding:0px;
+    }
+    .txt{
+        display: grid;
+        grid-template-columns:  1fr  1fr  1fr;
+        gap:10px ;
+        padding: 0px 50px 0px 50px;
+    }
+    .Tx{
+        display: grid;
+        grid-template-columns:1fr  1fr;
+        gap:10px ;
+        padding: 5px 60px 0px 60px;
+    }
+    
+
+
+
+
+
+
+}
